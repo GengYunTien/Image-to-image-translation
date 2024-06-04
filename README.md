@@ -13,9 +13,11 @@
 
     git clone https://github.com/GengYunTien/AICUP2024-spring
     cd AICUP2024-spring
+  
 * An environment can be created with all the Python dependencies:
 
     conda env create -f conda/environment.yml
+  
 ## Data preparation
 After the data preprocessing, place the training dataset 'img' and 'label_img' in ./dataset/cityscapes/train_A and ./dataset/cityscapes/train_B
 
