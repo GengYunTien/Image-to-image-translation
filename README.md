@@ -74,7 +74,7 @@ for road
 
 The model parameter will be saved in `checkpoints` folder.
 > latest_net_G.pth
-> 
+
 > latest_net_D.pth
 
 ## Testing
