@@ -64,9 +64,22 @@ After the data preprocessing, place the training dataset `img` and `label_img` i
     |   └── PRI_RO_1000719.png
     └── test_B
 ## Training
+for river
 
+    python train.py --name RIVER --label_nc 0 --no_instance
+
+for road
+
+    python train.py --name ROAD --label_nc 0 --no_instance
 
 ## Testing
+for river
+
+    python test.py --name RIVER --label_nc 0 --no_instance --how_many 360
+
+for road
+
+    python test.py --name ROAD --label_nc 0 --no_instance --how_many 360
 
 ## Acknowledgments
 Our work is inspired by [pix2pixHD](https://github.com/NVIDIA/pix2pixHD) 
