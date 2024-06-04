@@ -72,6 +72,10 @@ for road
 
     python train.py --name ROAD --label_nc 0 --no_instance
 
+The model parameter will be saved in `checkpoints` folder.
+> latest_net_G.pth
+> latest_net_D.pth
+
 ## Testing
 for river
 
