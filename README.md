@@ -6,7 +6,7 @@
 ## Intallation(conda environment)
 Clone the respository and move into the folder:
 
-    git clone 
+    git clone https://github.com/GengYunTien/AICUP2024-spring
     cd AICUP2024-spring
     
 An environment can be created with all the Python dependencies:
