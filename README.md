@@ -66,9 +66,11 @@ After the data preprocessing, place the training dataset `img` and `label_img` i
 ## Training
 * river
 
+
     python train.py --name RIVER --label_nc 0 --no_instance
 
-for road
+* road
+
 
     python train.py --name ROAD --label_nc 0 --no_instance
 
