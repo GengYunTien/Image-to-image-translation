@@ -78,11 +78,11 @@ The model parameter will be saved in `checkpoints` folder.
 > latest_net_D.pth
 
 ## Testing
-for river
+- river
 
     python test.py --name RIVER --label_nc 0 --no_instance --how_many 360
 
-for road
+- road
 
     python test.py --name ROAD --label_nc 0 --no_instance --how_many 360
 
