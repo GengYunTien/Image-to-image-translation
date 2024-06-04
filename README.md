@@ -3,6 +3,10 @@
 * Operating system: CentOS 7.8
 * Programmimg language: Python 3.8.19
 * Hardware: NVIDIA Tesla V100-PCIE-32GB
+## create folder
+
+    mkdir river
+    mkdir road
 ## Intallation(conda environment)
 Clone the respository and move into the folder:
 
@@ -13,10 +17,10 @@ An environment can be created with all the Python dependencies:
 
     conda env create -f conda/environment.yml
 ## Data preparation
-
+After the data preprocessing, place the img and 
 ## Training
 
 ## Testing
 
 ## Acknowledgments
-Our work is inspired by [pix2pixHD](https://github.com/NVIDIA/pix2pixHD/tree/master) 
+Our work is inspired by [pix2pixHD](https://github.com/NVIDIA/pix2pixHD) 
