@@ -9,12 +9,12 @@
     ├── river
     ├── road
 ## Intallation(conda environment)
-* Clone the repository in ./river and ./road respectively and move into the folder:
+Clone the repository in ./river and ./road respectively and move into the folder.
 
     git clone https://github.com/GengYunTien/AICUP2024-spring
     cd AICUP2024-spring
   
-* An environment can be created with all the Python dependencies:
+An environment can be created with all the Python dependencies.
 
     conda env create -f conda/environment.yml
   
@@ -41,6 +41,7 @@ After the data preprocessing, place the training dataset 'img' and 'label_img' i
     |              .
     |   └── PRI_RI_1000359.png
     └── test_B
+
 
         ./road/AICUP2024-spring/dataset/cityscapes
     ├── train_A
