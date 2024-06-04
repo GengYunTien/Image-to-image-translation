@@ -19,7 +19,7 @@ An environment can be created with all the Python dependencies.
     conda env create -f conda/environment.yml
   
 ## Data preparation
-After the data preprocessing, place the training dataset 'img' and 'label_img' in ./dataset/cityscapes/train_A and ./dataset/cityscapes/train_B
+After the data preprocessing, place the training dataset 'img' and 'label_img' in 'train_B' and 'train_A'
 
     ./river/AICUP2024-spring/dataset/cityscapes
     ├── train_A
