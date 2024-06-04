@@ -5,9 +5,12 @@
 * Hardware: NVIDIA Tesla V100-PCIE-32GB
 ## Intallation(conda environment)
 Clone the respository and move into the folder:
+
     git clone 
     cd AICUP2024-spring
+    
 An environment can be created with all the Python dependencies:
+
     conda env create -f conda/environment.yml
 ## Data preparation
 
