@@ -64,7 +64,7 @@ After the data preprocessing, place the training dataset `img` and `label_img` i
     |   └── PRI_RO_1000719.png
     └── test_B
 ## Training
-for river
+* river
 
     python train.py --name RIVER --label_nc 0 --no_instance
 
