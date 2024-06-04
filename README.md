@@ -73,7 +73,7 @@ After the data preprocessing, place the training dataset `img` and `label_img` i
 
     python train.py --name ROAD --label_nc 0 --no_instance
 
-The model parameter will be saved in `checkpoints` folder.
+The model parameters will be saved in `checkpoints` folder.
 > latest_net_G.pth
 
 > latest_net_D.pth
@@ -86,6 +86,8 @@ The model parameter will be saved in `checkpoints` folder.
 **road**
 
     python test.py --name ROAD --label_nc 0 --no_instance --how_many 360
+
+The generated results will be saved in `results` folder.
 
 ## Acknowledgments
 Our work is inspired by [pix2pixHD](https://github.com/NVIDIA/pix2pixHD) 
