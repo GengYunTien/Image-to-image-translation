@@ -65,12 +65,14 @@ After the data preprocessing, place the training dataset `img` and `label_img` i
     └── test_B
 ## Training
 * river
-* 
-    python train.py --name RIVER --label_nc 0 --no_instance
+
+```bash
+python train.py --name RIVER --label_nc 0 --no_instance
 
 * road
-* 
-    python train.py --name ROAD --label_nc 0 --no_instance
+
+```bash
+python train.py --name ROAD --label_nc 0 --no_instance
 
 The model parameter will be saved in `checkpoints` folder.
 > latest_net_G.pth
