@@ -16,7 +16,7 @@ Clone the repository in ./river and ./road respectively and move into the folder
   
 An environment can be created with all the Python dependencies.
 
-    conda env create -f conda/environment.yml
+    conda env create -f environment.yml
   
 ## Data preparation
 After the data preprocessing, place the training dataset `img` and `label_img` in `train_B` and `train_A`.
