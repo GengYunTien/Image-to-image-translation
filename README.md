@@ -87,7 +87,7 @@ The model parameters will be saved in `checkpoints` folder.
 
     python test.py --name ROAD --label_nc 0 --no_instance --how_many 360
 
-The generated results will be saved in `results` folder.
+The generated results will be saved in `results` folder. And it also can be downloaded from [here](https://drive.google.com/drive/folders/14ndZe1obuvLoUSfteyIQHEnuyUXBjnve?usp=drive_link)
 
 ## Acknowledgments
 Our work is inspired by [pix2pixHD](https://github.com/NVIDIA/pix2pixHD) 
