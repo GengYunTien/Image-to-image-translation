@@ -64,29 +64,28 @@ After the data preprocessing, place the training dataset `img` and `label_img` i
     |   └── PRI_RO_1000719.png
     └── test_B
 ## Training
-**river**
-
-    python train.py --name RIVER --label_nc 0 --no_instance
-
-**road**
-
-
-    python train.py --name ROAD --label_nc 0 --no_instance
-
+* **river**
+```bash
+python train.py --name RIVER --label_nc 0 --no_instance
+```
+* **road**
+```bash
+python train.py --name ROAD --label_nc 0 --no_instance
+```
 The model parameters will be saved in `checkpoints` folder.
 > latest_net_G.pth
 
 > latest_net_D.pth
 
 ## Testing
-**river**
-
-    python test.py --name RIVER --label_nc 0 --no_instance --how_many 360
-
-**road**
-
-    python test.py --name ROAD --label_nc 0 --no_instance --how_many 360
-
+* **river**
+```bash
+python test.py --name RIVER --label_nc 0 --no_instance --how_many 360
+```
+* **road**
+```bash
+python test.py --name ROAD --label_nc 0 --no_instance --how_many 360
+```
 The generated results will be saved in `results` folder. And it also can be downloaded from [here](https://drive.google.com/drive/folders/14ndZe1obuvLoUSfteyIQHEnuyUXBjnve?usp=drive_link)
 
 ## Acknowledgments
