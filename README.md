@@ -10,11 +10,6 @@
 ├── road
 ```
 ## Intallation(conda environment)
-Clone the repository in ./river and ./road respectively and move into the folder.
-```bash
-git clone https://github.com/GengYunTien/AICUP2024-TEAM_5029.git
-cd AICUP2024-TEAM_5029
-```
 An environment can be created with all the Python dependencies.
 ```bash
 conda env create -f environment.yml
